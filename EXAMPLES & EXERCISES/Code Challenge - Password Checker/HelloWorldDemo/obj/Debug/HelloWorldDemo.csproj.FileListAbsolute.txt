@@ -1,0 +1,7 @@
+C:\Users\prisc\Documents\aa_CODE\aa_C#\HelloWorldDemo\bin\Debug\HelloWorldDemo.exe.config
+C:\Users\prisc\Documents\aa_CODE\aa_C#\HelloWorldDemo\bin\Debug\HelloWorldDemo.exe
+C:\Users\prisc\Documents\aa_CODE\aa_C#\HelloWorldDemo\bin\Debug\HelloWorldDemo.pdb
+C:\Users\prisc\Documents\aa_CODE\aa_C#\HelloWorldDemo\obj\Debug\HelloWorldDemo.csproj.AssemblyReference.cache
+C:\Users\prisc\Documents\aa_CODE\aa_C#\HelloWorldDemo\obj\Debug\HelloWorldDemo.csproj.CoreCompileInputs.cache
+C:\Users\prisc\Documents\aa_CODE\aa_C#\HelloWorldDemo\obj\Debug\HelloWorldDemo.exe
+C:\Users\prisc\Documents\aa_CODE\aa_C#\HelloWorldDemo\obj\Debug\HelloWorldDemo.pdb
