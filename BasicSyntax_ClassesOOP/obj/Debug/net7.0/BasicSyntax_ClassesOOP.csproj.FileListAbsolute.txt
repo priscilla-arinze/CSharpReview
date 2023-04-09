@@ -1,0 +1,15 @@
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\BasicSyntax_ClassesOOP\bin\Debug\net7.0\BasicSyntax_ClassesOOP.exe
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\BasicSyntax_ClassesOOP\bin\Debug\net7.0\BasicSyntax_ClassesOOP.deps.json
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\BasicSyntax_ClassesOOP\bin\Debug\net7.0\BasicSyntax_ClassesOOP.runtimeconfig.json
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\BasicSyntax_ClassesOOP\bin\Debug\net7.0\BasicSyntax_ClassesOOP.dll
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\BasicSyntax_ClassesOOP\bin\Debug\net7.0\BasicSyntax_ClassesOOP.pdb
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\BasicSyntax_ClassesOOP\obj\Debug\net7.0\BasicSyntax_ClassesOOP.csproj.AssemblyReference.cache
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\BasicSyntax_ClassesOOP\obj\Debug\net7.0\BasicSyntax_ClassesOOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\BasicSyntax_ClassesOOP\obj\Debug\net7.0\BasicSyntax_ClassesOOP.AssemblyInfoInputs.cache
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\BasicSyntax_ClassesOOP\obj\Debug\net7.0\BasicSyntax_ClassesOOP.AssemblyInfo.cs
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\BasicSyntax_ClassesOOP\obj\Debug\net7.0\BasicSyntax_ClassesOOP.csproj.CoreCompileInputs.cache
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\BasicSyntax_ClassesOOP\obj\Debug\net7.0\BasicSyntax_ClassesOOP.dll
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\BasicSyntax_ClassesOOP\obj\Debug\net7.0\refint\BasicSyntax_ClassesOOP.dll
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\BasicSyntax_ClassesOOP\obj\Debug\net7.0\BasicSyntax_ClassesOOP.pdb
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\BasicSyntax_ClassesOOP\obj\Debug\net7.0\BasicSyntax_ClassesOOP.genruntimeconfig.cache
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\BasicSyntax_ClassesOOP\obj\Debug\net7.0\ref\BasicSyntax_ClassesOOP.dll

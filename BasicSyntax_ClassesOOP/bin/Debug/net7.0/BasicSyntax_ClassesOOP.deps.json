@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "BasicSyntax_ClassesOOP/1.0.0": {
+        "runtime": {
+          "BasicSyntax_ClassesOOP.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BasicSyntax_ClassesOOP/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
