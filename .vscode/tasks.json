@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/BasicSyntax_ClassesOOP/BasicSyntax_ClassesOOP.csproj",
+                "${workspaceFolder}/EXAMPLES & EXERCISES/Code Challenge - Password Checker/HelloWorldDemo/HelloWorldDemo.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/BasicSyntax_ClassesOOP/BasicSyntax_ClassesOOP.csproj",
+                "${workspaceFolder}/EXAMPLES & EXERCISES/Code Challenge - Password Checker/HelloWorldDemo/HelloWorldDemo.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/BasicSyntax_ClassesOOP/BasicSyntax_ClassesOOP.csproj"
+                "${workspaceFolder}/EXAMPLES & EXERCISES/Code Challenge - Password Checker/HelloWorldDemo/HelloWorldDemo.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

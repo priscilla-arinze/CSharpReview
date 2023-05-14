@@ -10,11 +10,11 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/BasicSyntax_ClassesOOP/bin/Debug/net7.0/BasicSyntax_ClassesOOP.dll",
+            "program": "${workspaceFolder}/C# PROJECTS/Classes-OOP/bin/Debug/net7.0/Classes-OOP.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/BasicSyntax_ClassesOOP",
+            "cwd": "${workspaceFolder}/C# PROJECTS/Classes-OOP",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
-            "console": "integratedTerminal",
+            "console": "internalConsole",
             "stopAtEntry": false
         },
         {
