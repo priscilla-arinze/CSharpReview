@@ -32,8 +32,7 @@ namespace Classes_OOP
         // Constructor (& constructor chaining/overloading [constructor choice depends on derived class])
         public BankAccount(string name, decimal initialBalance) : this(name, initialBalance, 0) { }
 
-        public BankAccount(string name, decimal initialBalance, decimal minimumBalance)
-        {
+        public BankAccount(string name, decimal initialBalance, decimal minimumBalance) {
             this.Owner = name;
             // no need to assign 'this.Balance' in constructor since a custom getter has been written above
             // this.Balance = initialBalance; 
@@ -69,8 +68,7 @@ namespace Classes_OOP
         */
         // NEW VERSION: nullable reference types ('?') for overdraft transactions
         // '?' annotation allows method to return null
-        public void MakeWithdrawal(decimal amount, DateTime date, string note)
-        {
+        public void MakeWithdrawal(decimal amount, DateTime date, string note) {
             if (amount <= 0) {
                 throw new ArgumentOutOfRangeException(nameof(amount), "Amount of withdrawal must be positive");
             }
@@ -86,8 +84,7 @@ namespace Classes_OOP
 
         // `protected` access: can only be accessed from base/inherited classes (e.g. cannot be directly called from main())
         // `virtual` keyword gives inherited classes the (optional) ability to override base class implementation --> LineOfCreditAccount class
-        protected virtual Transaction? CheckWithdrawalLimit(bool isOverdrawn)
-        {
+        protected virtual Transaction? CheckWithdrawalLimit(bool isOverdrawn) {
             if (isOverdrawn) {
                 throw new InvalidOperationException("Not sufficient funds for this withdrawal");
             }

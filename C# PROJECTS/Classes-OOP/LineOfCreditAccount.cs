@@ -16,8 +16,7 @@ namespace Classes_OOP
             : default;
 
         // derived from virtual method in BankAccount
-        public override void PerformMonthEndTransactions()
-        {
+        public override void PerformMonthEndTransactions() {
             if (Balance < 0)
             {
                 // Negate the balance to get a positive interest charge:
