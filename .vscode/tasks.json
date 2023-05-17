@@ -36,6 +36,66 @@
                 "${workspaceFolder}/EXAMPLES & EXERCISES/Code Challenge - Password Checker/HelloWorldDemo/HelloWorldDemo.csproj"
             ],
             "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Create Solution File (General)",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "new",
+                "sln",
+                "-n",
+                "${fileDirnameBasename}"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            // make sure the .csproj file is active before running the task
+            "label": "Add Project to Solution File (General)",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "sln",
+                "${fileDirnameBasename}.sln",
+                "add",
+                "${fileDirnameBasename}.csproj"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Create & Add to Solution for Current Project",
+            "dependsOn": ["Create Solution File (General)", "Add Project to Solution File (General)"],
+            "problemMatcher": "$msCompile"
+        },
+
+
+        // TODO: REVISE
+        {
+            "label": "Create Solution File (Specific Name)",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "new",
+                "sln",
+                "-n",
+                "${input:SolutionName}"
+            ],
+            "runOptions": {},
+            "problemMatcher": "$msCompile"
+        }
+    ],
+    "inputs": [
+        {
+            "id": "SolutionName",
+            "description": "Solution File Name",
+            "default": "${fileDirnameBasename}",
+            "type": "promptString"
         }
     ]
 }
