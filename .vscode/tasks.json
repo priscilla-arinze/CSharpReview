@@ -1,6 +1,8 @@
 {
     "version": "2.0.0",
     "tasks": [
+
+        //// DOTNET TASKS
         {
             "label": "build",
             "command": "dotnet",
@@ -37,8 +39,24 @@
             ],
             "problemMatcher": "$msCompile"
         },
+        
+
+        
+        //// PARENT TASKS
         {
-            "label": "Create Solution File (General)",
+            "label": "(ParentA) Create & Add to Solution for Current Project",
+            "detail": "This parent task is meant to create a solution file of the same name as the project and add a single project to it within the same project directory.",
+            "dependsOn": ["(ChildA1) Create_SameDir_Sln", "(ChildA2) Add_Proj_To_SameNameSln"],
+            "dependsOrder": "sequence",
+            "problemMatcher": "$msCompile"
+        },
+
+        
+        //// CHILD TASKS
+        // make sure the .csproj file (or any other file at the root project directory) is active before running the task
+        {
+            "label": "(ChildA1) Create_SameDir_Sln",
+            "detail": "This child task will create a solution file (.sln) with the same name as the project of the currently active .csproj file & output the .sln file to the project directory.",
             "command": "dotnet",
             "type": "process",
             "args": [
@@ -53,31 +71,8 @@
             "problemMatcher": "$msCompile"
         },
         {
-            // make sure the .csproj file is active before running the task
-            "label": "Add Project to Solution File (General)",
-            "command": "dotnet",
-            "type": "process",
-            "args": [
-                "sln",
-                "${fileDirnameBasename}.sln",
-                "add",
-                "${fileDirnameBasename}.csproj"
-            ],
-            "options": {
-                "cwd": "${fileDirname}"
-            },
-            "problemMatcher": "$msCompile"
-        },
-        {
-            "label": "Create & Add to Solution for Current Project",
-            "dependsOn": ["Create Solution File (General)", "Add Project to Solution File (General)"],
-            "problemMatcher": "$msCompile"
-        },
-
-
-        // TODO: REVISE
-        {
-            "label": "Create Solution File (Specific Name)",
+            "label": "(ChildB1) Create_CustomName_Sln",
+            "detail": "",
             "command": "dotnet",
             "type": "process",
             "args": [
@@ -86,15 +81,61 @@
                 "-n",
                 "${input:SolutionName}"
             ],
-            "runOptions": {},
+            "options": {
+                "cwd": "${input:SolutionFileLocation}"
+            },
             "problemMatcher": "$msCompile"
-        }
+        },
+
+        // make sure the .csproj file is active before running the task
+        {
+            "label": "(ChildA2) Add_Proj_To_SameNameSln",
+            "detail": "This child task will add the project of the currently active .csproj file to the solution file (.sln) of the same name as the project.",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "sln",
+                "${fileDirnameBasename}.sln",
+                "add",
+                "${fileBasename}"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": "$msCompile"
+        },
+
+        // make sure the .csproj file is active before running the task
+        {
+            "label": "(ChildB2) Add_Proj_To_CustomNameSln",
+            "detail": "This child task will add an inputted project namethe project of the currently active .csproj file to the solution file (.sln) of the same name as the project.",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "sln",
+                "${input:SolutionName}",
+                "add",
+                "${fileBasename}"
+            ],
+            "options": {
+                "cwd": "${input:SolutionFileLocation}"
+            },
+            "problemMatcher": "$msCompile"
+        },
+
+        
     ],
     "inputs": [
         {
             "id": "SolutionName",
-            "description": "Solution File Name",
+            "description": "What do you want to name the new solution file?",
             "default": "${fileDirnameBasename}",
+            "type": "promptString"
+        },
+        {
+            "id": "SolutionFileLocation",
+            "description": "What is the full path of where you want to create the new solution file?",
+            "default": "${fileDirname}",
             "type": "promptString"
         }
     ]
