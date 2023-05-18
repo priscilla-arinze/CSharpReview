@@ -46,14 +46,21 @@
         {
             "label": "(PARENT) Create New Project & Solution",
             "detail": "This parent task is meant to create a solution file of the same name as the project and add a single project to it within the same project directory.",
-            "dependsOn": ["", "(PARENT) Create & Add to Solution for Current Project"],
+            "dependsOn": ["(CHILD) NewC#Project", "(CHILD) File (.csproj) Selection Pause", "(PARENT) Create & Add to Solution for SPECIFIED Project"],
             "dependsOrder": "sequence",
             "problemMatcher": "$msCompile"
         },
         {
-            "label": "(PARENT) Create & Add to Solution for Current Project",
+            "label": "(PARENT) Create & Add to Solution for ACTIVE Project",
             "detail": "This parent task is meant to create a solution file of the same name as the project and add a single project to it within the same project directory.",
             "dependsOn": ["(CHILD) Create_SameDir_Sln", "(CHILD) Add_Proj_To_SameNameSln"],
+            "dependsOrder": "sequence",
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "(PARENT) Create & Add to Solution for SPECIFIED Project",
+            "detail": "This parent task is meant to create a solution file of the same name as the project and add a single project to it within the same project directory.",
+            "dependsOn": ["(CHILD) Create_CustomName_Sln", "(CHILD) Add_Proj_To_CustomNameSln"],
             "dependsOrder": "sequence",
             "problemMatcher": "$msCompile"
         },
@@ -72,10 +79,11 @@
                 "${input:ProjectName}"
             ],
             "options": {
-                "cwd": "${input:ProjectRootLocation}"
+                "cwd": "${input:ProjectRootLocation_RELATIVE}"
             },
             "problemMatcher": "$msCompile"
         },
+
         // make sure the .csproj file (or any other file at the root project directory) is active before running the task
         {
             "label": "(CHILD) Create_SameDir_Sln",
@@ -105,7 +113,7 @@
                 "${input:SolutionName}"
             ],
             "options": {
-                "cwd": "${input:SolutionRootLocation}"
+                "cwd": "${input:SolutionRootLocation_RELATIVE}"
             },
             "problemMatcher": "$msCompile"
         },
@@ -141,9 +149,17 @@
                 "${file}"
             ],
             "options": {
-                "cwd": "${input:SolutionRootLocation}"
+                "cwd": "${input:SolutionRootLocation_RELATIVE}"
             },
             "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "(CHILD) File (.csproj) Selection Pause",
+            "detail": "This child task will pause the compound task in order to allow user to select the appropriate file (e.g. a .csproj file) before continuing.",
+            "command": "echo Correct file selected? ${input:FileSelectPausePrompt}",
+            "type": "shell",
+            "hide": true,
+            "problemMatcher": []
         },
 
         
@@ -162,16 +178,27 @@
             "type": "promptString"
         },
         {
-            "id": "SolutionRootLocation",
-            "description": "What is the full root directory path of the new solution file?",
-            "default": "${fileDirname}",
+            "id": "SolutionRootLocation_RELATIVE",
+            "description": "What is the relative root directory path of the new solution file? (relative to repo root)",
+            "default": "${relativeFileDirname}",
             "type": "promptString"
         },
         {
-            "id": "ProjectRootLocation",
-            "description": "What is the full root directory path of the new project (excluding project folder name)?",
+            "id": "ProjectRootLocation_RELATIVE",
+            "description": "What is the relative root directory path of the new project, excluding project folder name (relative to repo root)?",
             "default": "C# PROJECTS",
             "type": "promptString"
+        },
+        {
+            "id": "FileSelectPausePrompt",
+            "description": "Before creating solution file, choose 'Yes' or 'No' from dropdown to confirm correct file selection.",
+            "options": [
+                "Yes",
+                "No"
+              ],
+            "default": "No",
+            "type": "pickString"
         }
+
     ]
 }
