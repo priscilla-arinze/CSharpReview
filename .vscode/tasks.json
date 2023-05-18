@@ -44,19 +44,42 @@
         
         //// PARENT TASKS
         {
-            "label": "(ParentA) Create & Add to Solution for Current Project",
+            "label": "(PARENT) Create New Project & Solution",
             "detail": "This parent task is meant to create a solution file of the same name as the project and add a single project to it within the same project directory.",
-            "dependsOn": ["(ChildA1) Create_SameDir_Sln", "(ChildA2) Add_Proj_To_SameNameSln"],
+            "dependsOn": ["", "(PARENT) Create & Add to Solution for Current Project"],
+            "dependsOrder": "sequence",
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "(PARENT) Create & Add to Solution for Current Project",
+            "detail": "This parent task is meant to create a solution file of the same name as the project and add a single project to it within the same project directory.",
+            "dependsOn": ["(CHILD) Create_SameDir_Sln", "(CHILD) Add_Proj_To_SameNameSln"],
             "dependsOrder": "sequence",
             "problemMatcher": "$msCompile"
         },
 
         
         //// CHILD TASKS
+        {
+            "label": "(CHILD) NewC#Project",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "new",
+                "console",
+                "--use-program-main",
+                "-n",
+                "${input:ProjectName}"
+            ],
+            "options": {
+                "cwd": "${input:ProjectRootLocation}"
+            },
+            "problemMatcher": "$msCompile"
+        },
         // make sure the .csproj file (or any other file at the root project directory) is active before running the task
         {
-            "label": "(ChildA1) Create_SameDir_Sln",
-            "detail": "This child task will create a solution file (.sln) with the same name as the project of the currently active .csproj file & output the .sln file to the project directory.",
+            "label": "(CHILD) Create_SameDir_Sln",
+            "detail": "This child task will create a solution file (.sln) with the same name as the project of the currently active .csproj file & output the .sln file to the project directory. Make sure the .csproj file (or any other file at the root project directory) is active before running the task.",
             "command": "dotnet",
             "type": "process",
             "args": [
@@ -71,7 +94,7 @@
             "problemMatcher": "$msCompile"
         },
         {
-            "label": "(ChildB1) Create_CustomName_Sln",
+            "label": "(CHILD) Create_CustomName_Sln",
             "detail": "",
             "command": "dotnet",
             "type": "process",
@@ -82,15 +105,15 @@
                 "${input:SolutionName}"
             ],
             "options": {
-                "cwd": "${input:SolutionFileLocation}"
+                "cwd": "${input:SolutionRootLocation}"
             },
             "problemMatcher": "$msCompile"
         },
 
         // make sure the .csproj file is active before running the task
         {
-            "label": "(ChildA2) Add_Proj_To_SameNameSln",
-            "detail": "This child task will add the project of the currently active .csproj file to the solution file (.sln) of the same name as the project.",
+            "label": "(CHILD) Add_Proj_To_SameNameSln",
+            "detail": "This child task will add the project of the currently active .csproj file to the solution file (.sln) of the same name as the project. Make sure the .csproj file is active before running the task.",
             "command": "dotnet",
             "type": "process",
             "args": [
@@ -107,18 +130,18 @@
 
         // make sure the .csproj file is active before running the task
         {
-            "label": "(ChildB2) Add_Proj_To_CustomNameSln",
-            "detail": "This child task will add an inputted project namethe project of the currently active .csproj file to the solution file (.sln) of the same name as the project.",
+            "label": "(CHILD) Add_Proj_To_CustomNameSln",
+            "detail": "This child task will add the project of the currently active .csproj file to a user-inputted solution file (.sln). Make sure the .csproj file is active before running the task.",
             "command": "dotnet",
             "type": "process",
             "args": [
                 "sln",
-                "${input:SolutionName}",
+                "${input:SolutionName}.sln",
                 "add",
-                "${fileBasename}"
+                "${file}"
             ],
             "options": {
-                "cwd": "${input:SolutionFileLocation}"
+                "cwd": "${input:SolutionRootLocation}"
             },
             "problemMatcher": "$msCompile"
         },
@@ -128,14 +151,26 @@
     "inputs": [
         {
             "id": "SolutionName",
-            "description": "What do you want to name the new solution file?",
+            "description": "What is the name of the new solution file (without the '.sln')?",
             "default": "${fileDirnameBasename}",
             "type": "promptString"
         },
         {
-            "id": "SolutionFileLocation",
-            "description": "What is the full path of where you want to create the new solution file?",
+            "id": "ProjectName",
+            "description": "What is the name of the new project?",
+            "default": "NewProjectDefaultName",
+            "type": "promptString"
+        },
+        {
+            "id": "SolutionRootLocation",
+            "description": "What is the full root directory path of the new solution file?",
             "default": "${fileDirname}",
+            "type": "promptString"
+        },
+        {
+            "id": "ProjectRootLocation",
+            "description": "What is the full root directory path of the new project (excluding project folder name)?",
+            "default": "C# PROJECTS",
             "type": "promptString"
         }
     ]
