@@ -1,8 +1,6 @@
 {
     "version": "2.0.0",
     "tasks": [
-
-        //// DOTNET TASKS
         {
             "label": "build",
             "command": "dotnet",
@@ -39,42 +37,48 @@
             ],
             "problemMatcher": "$msCompile"
         },
-        
-
-        
-        //// PARENT TASKS
         {
             "label": "(PARENT) Create New C# Project & Solution",
             "detail": "This parent task is meant to create a solution file of the same name as the project and add a single project to it within the same project directory.",
-            "dependsOn": ["(CHILD) New C# Project", "(CHILD) File (.csproj) Selection Pause", "(PARENT) Create & Add to Solution for SPECIFIED Project"],
+            "dependsOn": [
+                "(CHILD) New C# Project",
+                "(CHILD) File (.csproj) Selection Pause",
+                "(PARENT) Create & Add to Solution for SPECIFIED Project"
+            ],
             "dependsOrder": "sequence",
             "problemMatcher": "$msCompile"
         },
         {
             "label": "(PARENT) Create New Unit Test Project & Solution",
-            "detail": "This parent task is meant to create a new unit test project for one of the following selected unit test types: mstest, nunit, and xunit and will add it to a specified solution file.",
-            "dependsOn": ["(CHILD) Create New Unit Test Project", "(CHILD) File (.csproj) Selection Pause", "(CHILD) Add_Proj_To_CustomNameSln"],
+            "detail": "This parent task is meant to create a new unit test project for one of the following selected unit test types: mstest, nunit, and xunit. It will also add it to a specified solution file.",
+            "dependsOn": [
+                "(CHILD) Create New Unit Test Project",
+                "(CHILD) File (.csproj) Selection Pause",
+                "(CHILD) Add_Proj_To_CustomNameSln"
+            ],
             "dependsOrder": "sequence",
             "problemMatcher": "$msCompile"
         },
         {
             "label": "(PARENT) Create & Add to Solution for ACTIVE Project",
             "detail": "This parent task is meant to create a solution file of the same name as the project and add a single project to it within the same project directory.",
-            "dependsOn": ["(CHILD) Create_SameDir_Sln", "(CHILD) Add_Proj_To_SameNameSln"],
+            "dependsOn": [
+                "(CHILD) Create_SameDir_Sln",
+                "(CHILD) Add_Proj_To_SameNameSln"
+            ],
             "dependsOrder": "sequence",
             "problemMatcher": "$msCompile"
         },
         {
             "label": "(PARENT) Create & Add to Solution for SPECIFIED Project",
             "detail": "This parent task is meant to create a solution file of the same name as the project and add a single project to it within the same project directory.",
-            "dependsOn": ["(CHILD) Create_CustomName_Sln", "(CHILD) Add_Proj_To_CustomNameSln"],
+            "dependsOn": [
+                "(CHILD) Create_CustomName_Sln",
+                "(CHILD) Add_Proj_To_CustomNameSln"
+            ],
             "dependsOrder": "sequence",
             "problemMatcher": "$msCompile"
         },
-
-
-        
-        //// CHILD TASKS
         {
             "label": "(CHILD) New C# Project",
             "command": "dotnet",
@@ -91,7 +95,6 @@
             },
             "problemMatcher": "$msCompile"
         },
-
         {
             "label": "(CHILD) Create New Unit Test Project",
             "command": "dotnet",
@@ -107,8 +110,6 @@
             },
             "problemMatcher": "$msCompile"
         },
-
-        // make sure the .csproj file (or any other file at the root project directory) is active before running the task
         {
             "label": "(CHILD) Create_SameDir_Sln",
             "detail": "This child task will create a solution file (.sln) with the same name as the project of the currently active .csproj file & output the .sln file to the project directory. Make sure the .csproj file (or any other file at the root project directory) is active before running the task.",
@@ -141,8 +142,6 @@
             },
             "problemMatcher": "$msCompile"
         },
-
-        // make sure the .csproj file is active before running the task
         {
             "label": "(CHILD) Add_Proj_To_SameNameSln",
             "detail": "This child task will add the project of the currently active .csproj file to the solution file (.sln) of the same name as the project. Make sure the .csproj file is active before running the task.",
@@ -159,8 +158,6 @@
             },
             "problemMatcher": "$msCompile"
         },
-
-        // make sure the .csproj file is active before running the task
         {
             "label": "(CHILD) Add_Proj_To_CustomNameSln",
             "detail": "This child task will add the project of the currently active .csproj file to a user-inputted solution file (.sln). Make sure the .csproj file is active before running the task.",
@@ -184,9 +181,7 @@
             "type": "shell",
             "hide": true,
             "problemMatcher": []
-        },
-
-        
+        }
     ],
     "inputs": [
         {
