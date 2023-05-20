@@ -1,0 +1,5 @@
+﻿namespace QuickDate;
+
+class Program
+{
+}
