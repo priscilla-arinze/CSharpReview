@@ -44,9 +44,16 @@
         
         //// PARENT TASKS
         {
-            "label": "(PARENT) Create New Project & Solution",
+            "label": "(PARENT) Create New C# Project & Solution",
             "detail": "This parent task is meant to create a solution file of the same name as the project and add a single project to it within the same project directory.",
-            "dependsOn": ["(CHILD) NewC#Project", "(CHILD) File (.csproj) Selection Pause", "(PARENT) Create & Add to Solution for SPECIFIED Project"],
+            "dependsOn": ["(CHILD) New C# Project", "(CHILD) File (.csproj) Selection Pause", "(PARENT) Create & Add to Solution for SPECIFIED Project"],
+            "dependsOrder": "sequence",
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "(PARENT) Create New Unit Test Project & Solution",
+            "detail": "This parent task is meant to create a new unit test project for one of the following selected unit test types: mstest, nunit, and xunit and will add it to a specified solution file.",
+            "dependsOn": ["(CHILD) Create New Unit Test Project", "(CHILD) File (.csproj) Selection Pause", "(CHILD) Add_Proj_To_CustomNameSln"],
             "dependsOrder": "sequence",
             "problemMatcher": "$msCompile"
         },
@@ -65,16 +72,33 @@
             "problemMatcher": "$msCompile"
         },
 
+
         
         //// CHILD TASKS
         {
-            "label": "(CHILD) NewC#Project",
+            "label": "(CHILD) New C# Project",
             "command": "dotnet",
             "type": "process",
             "args": [
                 "new",
                 "console",
                 "--use-program-main",
+                "-n",
+                "${input:ProjectName}"
+            ],
+            "options": {
+                "cwd": "${input:ProjectRootLocation_RELATIVE}"
+            },
+            "problemMatcher": "$msCompile"
+        },
+
+        {
+            "label": "(CHILD) Create New Unit Test Project",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "new",
+                "${input:UnitTestType}",
                 "-n",
                 "${input:ProjectName}"
             ],
@@ -197,6 +221,17 @@
                 "No"
               ],
             "default": "No",
+            "type": "pickString"
+        },
+        {
+            "id": "UnitTestType",
+            "description": "Select which unit test project you would like to create:",
+            "options": [
+                "mstest",
+                "nunit",
+                "xunit"
+              ],
+            "default": "mstest",
             "type": "pickString"
         }
 
