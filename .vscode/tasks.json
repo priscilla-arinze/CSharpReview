@@ -189,6 +189,24 @@
             "problemMatcher": "$msCompile"
         },
 
+        {
+            "label": "(CHILD) Add or Remove Project-to-Project Reference",
+            "detail": "This task will add or remove the build dependency project reference between two specified projects.",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "${input:ProjReferenceAction}",
+                "${input:ProjectRef-DependsOn_ABSOLUTE}", // project that depends on another
+                "reference",
+                "${input:ProjectRef-DependedOn_ABSOLUTE}" //project that is depended on (build first)
+            ],
+            "options": {
+                "cwd": "${input:SolutionRootLocation_RELATIVE}"
+            },
+            "problemMatcher": "$msCompile"
+
+        },
+
         // make sure the .csproj file (or any other file at the root project directory) is active before running the task
         {
             "label": "(CHILD) File (.csproj) Selection Pause",
@@ -200,7 +218,7 @@
         }
     ],
 
-    
+
     "inputs": [
         {
             "id": "SolutionName",
@@ -227,6 +245,18 @@
             "type": "promptString"
         },
         {
+            "id": "ProjectRef-DependsOn_ABSOLUTE",
+            "description": "What is the absolute path of the .csproj file that depends on another project (this project will build after the dependency project)?",
+            "default": "EXAMPLE.csproj",
+            "type": "promptString"
+        },
+        {
+            "id": "ProjectRef-DependedOn_ABSOLUTE",
+            "description": "What is the absolute path of the .csproj file that is depended on by another project (this will have to build first)?",
+            "default": "EXAMPLE.csproj",
+            "type": "promptString"
+        },
+        {
             "id": "FileSelectPausePrompt",
             "description": "Before creating solution file, choose 'Yes' or 'No' from dropdown to confirm correct file selection.",
             "options": [
@@ -246,7 +276,17 @@
               ],
             "default": "mstest",
             "type": "pickString"
-        }
+        },
+        {
+            "id": "ProjReferenceAction",
+            "description": "Would you like to add or remove a project reference?",
+            "options": [
+                "add",
+                "remove"
+              ],
+            "default": "No",
+            "type": "pickString"
+        },
 
     ]
 }
