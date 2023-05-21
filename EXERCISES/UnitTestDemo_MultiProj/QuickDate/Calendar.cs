@@ -1,7 +1,8 @@
 using System;
 using System.Runtime.CompilerServices;
 
-// will need to add a reference from the specified project to this current project
+// will have to add a reference from the specified project to this current project, 
+// otherwise it will result in a "does not exist within this context" error in the other project
 [assembly: InternalsVisibleToAttribute("QuickTest")] 
 
 namespace QuickDate;
