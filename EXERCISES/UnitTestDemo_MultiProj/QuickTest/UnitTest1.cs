@@ -1,10 +1,13 @@
+using System;
+
 namespace QuickTest;
 
 [TestClass]
 public class UnitTest1
 {
     [TestMethod]
-    public void TestMethod1()
-    {
-    }
+        public void TestGetCurrentDate()
+        {
+            Assert.AreEqual(DateTime.Now.Date, QuickDate.Calendar.GetCurrentDate());
+        }
 }

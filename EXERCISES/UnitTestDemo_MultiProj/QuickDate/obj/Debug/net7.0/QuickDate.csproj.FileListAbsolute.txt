@@ -1,0 +1,15 @@
+c:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\UnitTestDemo_MultiProj\QuickDate\bin\Debug\net7.0\QuickDate.exe
+c:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\UnitTestDemo_MultiProj\QuickDate\bin\Debug\net7.0\QuickDate.deps.json
+c:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\UnitTestDemo_MultiProj\QuickDate\bin\Debug\net7.0\QuickDate.runtimeconfig.json
+c:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\UnitTestDemo_MultiProj\QuickDate\bin\Debug\net7.0\QuickDate.dll
+c:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\UnitTestDemo_MultiProj\QuickDate\bin\Debug\net7.0\QuickDate.pdb
+c:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\UnitTestDemo_MultiProj\QuickDate\obj\Debug\net7.0\QuickDate.csproj.AssemblyReference.cache
+c:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\UnitTestDemo_MultiProj\QuickDate\obj\Debug\net7.0\QuickDate.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\UnitTestDemo_MultiProj\QuickDate\obj\Debug\net7.0\QuickDate.AssemblyInfoInputs.cache
+c:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\UnitTestDemo_MultiProj\QuickDate\obj\Debug\net7.0\QuickDate.AssemblyInfo.cs
+c:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\UnitTestDemo_MultiProj\QuickDate\obj\Debug\net7.0\QuickDate.csproj.CoreCompileInputs.cache
+c:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\UnitTestDemo_MultiProj\QuickDate\obj\Debug\net7.0\QuickDate.dll
+c:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\UnitTestDemo_MultiProj\QuickDate\obj\Debug\net7.0\refint\QuickDate.dll
+c:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\UnitTestDemo_MultiProj\QuickDate\obj\Debug\net7.0\QuickDate.pdb
+c:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\UnitTestDemo_MultiProj\QuickDate\obj\Debug\net7.0\QuickDate.genruntimeconfig.cache
+c:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\UnitTestDemo_MultiProj\QuickDate\obj\Debug\net7.0\ref\QuickDate.dll

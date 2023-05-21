@@ -598,6 +598,16 @@
             "related": ".xml"
           }
         }
+      },
+      "QuickDate/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/QuickDate.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/QuickDate.dll": {}
+        }
       }
     }
   },
@@ -2292,6 +2302,11 @@
         "system.threading.tasks.4.3.0.nupkg.sha512",
         "system.threading.tasks.nuspec"
       ]
+    },
+    "QuickDate/1.0.0": {
+      "type": "project",
+      "path": "../QuickDate/QuickDate.csproj",
+      "msbuildProject": "../QuickDate/QuickDate.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2299,6 +2314,7 @@
       "MSTest.TestAdapter >= 2.2.10",
       "MSTest.TestFramework >= 2.2.10",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
+      "QuickDate >= 1.0.0",
       "coverlet.collector >= 3.2.0"
     ]
   },
@@ -2333,7 +2349,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\EXERCISES\\UnitTestDemo_MultiProj\\QuickDate\\QuickDate.csproj": {
+              "projectPath": "C:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\EXERCISES\\UnitTestDemo_MultiProj\\QuickDate\\QuickDate.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
