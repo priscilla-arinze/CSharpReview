@@ -1,6 +1,8 @@
 {
     "version": "2.0.0",
     "tasks": [
+
+        //// DOTNET TASKS
         {
             "label": "build",
             "command": "dotnet",
@@ -37,6 +39,9 @@
             ],
             "problemMatcher": "$msCompile"
         },
+
+
+        //// PARENT TASKS
         {
             "label": "(PARENT) Create New C# Project & Solution",
             "detail": "This parent task is meant to create a solution file of the same name as the project and add a single project to it within the same project directory.",
@@ -79,6 +84,9 @@
             "dependsOrder": "sequence",
             "problemMatcher": "$msCompile"
         },
+
+
+        //// CHILD TASKS
         {
             "label": "(CHILD) New C# Project",
             "command": "dotnet",
@@ -110,6 +118,8 @@
             },
             "problemMatcher": "$msCompile"
         },
+
+        // make sure the .csproj file (or any other file at the root project directory) is active before running the task
         {
             "label": "(CHILD) Create_SameDir_Sln",
             "detail": "This child task will create a solution file (.sln) with the same name as the project of the currently active .csproj file & output the .sln file to the project directory. Make sure the .csproj file (or any other file at the root project directory) is active before running the task.",
@@ -142,6 +152,8 @@
             },
             "problemMatcher": "$msCompile"
         },
+
+        // make sure the .csproj file (or any other file at the root project directory) is active before running the task
         {
             "label": "(CHILD) Add_Proj_To_SameNameSln",
             "detail": "This child task will add the project of the currently active .csproj file to the solution file (.sln) of the same name as the project. Make sure the .csproj file is active before running the task.",
@@ -158,6 +170,8 @@
             },
             "problemMatcher": "$msCompile"
         },
+
+        // make sure the .csproj file (or any other file at the root project directory) is active before running the task
         {
             "label": "(CHILD) Add_Proj_To_CustomNameSln",
             "detail": "This child task will add the project of the currently active .csproj file to a user-inputted solution file (.sln). Make sure the .csproj file is active before running the task.",
@@ -174,6 +188,8 @@
             },
             "problemMatcher": "$msCompile"
         },
+
+        // make sure the .csproj file (or any other file at the root project directory) is active before running the task
         {
             "label": "(CHILD) File (.csproj) Selection Pause",
             "detail": "This child task will pause the compound task in order to allow user to select the appropriate file (e.g. a .csproj file) before continuing.",
@@ -183,6 +199,8 @@
             "problemMatcher": []
         }
     ],
+
+    
     "inputs": [
         {
             "id": "SolutionName",
