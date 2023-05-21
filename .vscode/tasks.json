@@ -198,7 +198,7 @@
                 "${input:ProjReferenceAction}",
                 "${input:ProjectRef-DependsOn_ABSOLUTE}", // project that depends on another
                 "reference",
-                "${input:ProjectRef-DependedOn_ABSOLUTE}" //project that is depended on (build first)
+                "${input:ProjectRef-DependedOn_ABSOLUTE}" // project that is depended on (build first)
             ],
             "options": {
                 "cwd": "${input:SolutionRootLocation_RELATIVE}"
@@ -215,7 +215,21 @@
             "type": "shell",
             "hide": true,
             "problemMatcher": []
-        }
+        },
+
+        {
+            "label": "(EXECUTE) Run Unit Tests",
+            "detail": "This task will run the unit tests of the currently active or specified .csproj/.dll file for a test project.",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "test",
+                "${input:TestLocation_ABSOLUTE}",
+                "--logger",
+                "\"console;verbosity=detailed\""
+            ],
+            "problemMatcher": "$msCompile"
+        },
     ],
 
 
@@ -242,6 +256,12 @@
             "id": "ProjectRootLocation_RELATIVE",
             "description": "What is the relative root directory path of the new project, excluding project folder name (relative to repo root)?",
             "default": "C# PROJECTS",
+            "type": "promptString"
+        },
+        {
+            "id": "TestLocation_ABSOLUTE",
+            "description": "What is the absolute path of the .csproj file or .dll file for the test project?",
+            "default": "${file}",
             "type": "promptString"
         },
         {
