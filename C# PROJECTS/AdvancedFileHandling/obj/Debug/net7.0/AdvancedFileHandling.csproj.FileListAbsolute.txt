@@ -1,0 +1,15 @@
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\C# PROJECTS\AdvancedFileHandling\bin\Debug\net7.0\AdvancedFileHandling.exe
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\C# PROJECTS\AdvancedFileHandling\bin\Debug\net7.0\AdvancedFileHandling.deps.json
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\C# PROJECTS\AdvancedFileHandling\bin\Debug\net7.0\AdvancedFileHandling.runtimeconfig.json
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\C# PROJECTS\AdvancedFileHandling\bin\Debug\net7.0\AdvancedFileHandling.dll
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\C# PROJECTS\AdvancedFileHandling\bin\Debug\net7.0\AdvancedFileHandling.pdb
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\C# PROJECTS\AdvancedFileHandling\obj\Debug\net7.0\AdvancedFileHandling.csproj.AssemblyReference.cache
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\C# PROJECTS\AdvancedFileHandling\obj\Debug\net7.0\AdvancedFileHandling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\C# PROJECTS\AdvancedFileHandling\obj\Debug\net7.0\AdvancedFileHandling.AssemblyInfoInputs.cache
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\C# PROJECTS\AdvancedFileHandling\obj\Debug\net7.0\AdvancedFileHandling.AssemblyInfo.cs
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\C# PROJECTS\AdvancedFileHandling\obj\Debug\net7.0\AdvancedFileHandling.csproj.CoreCompileInputs.cache
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\C# PROJECTS\AdvancedFileHandling\obj\Debug\net7.0\AdvancedFileHandling.dll
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\C# PROJECTS\AdvancedFileHandling\obj\Debug\net7.0\refint\AdvancedFileHandling.dll
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\C# PROJECTS\AdvancedFileHandling\obj\Debug\net7.0\AdvancedFileHandling.pdb
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\C# PROJECTS\AdvancedFileHandling\obj\Debug\net7.0\AdvancedFileHandling.genruntimeconfig.cache
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\C# PROJECTS\AdvancedFileHandling\obj\Debug\net7.0\ref\AdvancedFileHandling.dll

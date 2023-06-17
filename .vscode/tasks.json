@@ -9,7 +9,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/EXAMPLES & EXERCISES/Code Challenge - Password Checker/HelloWorldDemo/HelloWorldDemo.csproj",
+                "${workspaceFolder}/C# PROJECTS/AdvancedFileHandling/AdvancedFileHandling.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -21,7 +21,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/EXAMPLES & EXERCISES/Code Challenge - Password Checker/HelloWorldDemo/HelloWorldDemo.csproj",
+                "${workspaceFolder}/C# PROJECTS/AdvancedFileHandling/AdvancedFileHandling.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -35,7 +35,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/EXAMPLES & EXERCISES/Code Challenge - Password Checker/HelloWorldDemo/HelloWorldDemo.csproj"
+                "${workspaceFolder}/C# PROJECTS/AdvancedFileHandling/AdvancedFileHandling.sln"
             ],
             "problemMatcher": "$msCompile"
         },
