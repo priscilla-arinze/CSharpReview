@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P9ZSdIu2iGard8DrOFqrgNvA3B5WlnopuHFhj4SziluoRX1YLKXXgA3GSUYdOO8sc5aF3aO96L3boMuDufEknA==",
+  "dgSpecHash": "AgMn0ylfyV2prgSK49zJyyuqqbRopZtl26qO37mwiPidxQvxWOrB/tTJ83aFdhKoXapd0arAun5hVyuVpcU3ng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\EXERCISES\\UnitTestDemo_MultiProj\\QuickTest\\QuickTest.csproj",
+  "projectFilePath": "c:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\EXERCISES\\UnitTestDemo_MultiProj\\QuickTest\\QuickTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\prisc\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\prisc\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",

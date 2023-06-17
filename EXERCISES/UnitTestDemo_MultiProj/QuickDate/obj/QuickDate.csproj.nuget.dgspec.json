@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\EXERCISES\\UnitTestDemo_MultiProj\\QuickDate\\QuickDate.csproj": {}
+    "c:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\EXERCISES\\UnitTestDemo_MultiProj\\QuickDate\\QuickDate.csproj": {}
   },
   "projects": {
-    "C:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\EXERCISES\\UnitTestDemo_MultiProj\\QuickDate\\QuickDate.csproj": {
+    "c:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\EXERCISES\\UnitTestDemo_MultiProj\\QuickDate\\QuickDate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\EXERCISES\\UnitTestDemo_MultiProj\\QuickDate\\QuickDate.csproj",
+        "projectUniqueName": "c:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\EXERCISES\\UnitTestDemo_MultiProj\\QuickDate\\QuickDate.csproj",
         "projectName": "QuickDate",
-        "projectPath": "C:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\EXERCISES\\UnitTestDemo_MultiProj\\QuickDate\\QuickDate.csproj",
+        "projectPath": "c:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\EXERCISES\\UnitTestDemo_MultiProj\\QuickDate\\QuickDate.csproj",
         "packagesPath": "C:\\Users\\prisc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\EXERCISES\\UnitTestDemo_MultiProj\\QuickDate\\obj\\",
+        "outputPath": "c:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\EXERCISES\\UnitTestDemo_MultiProj\\QuickDate\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
