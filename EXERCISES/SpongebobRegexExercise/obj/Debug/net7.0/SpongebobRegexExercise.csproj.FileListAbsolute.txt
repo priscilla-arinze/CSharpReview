@@ -1,0 +1,15 @@
+c:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\SpongebobRegexExercise\bin\Debug\net7.0\SpongebobRegexExercise.exe
+c:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\SpongebobRegexExercise\bin\Debug\net7.0\SpongebobRegexExercise.deps.json
+c:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\SpongebobRegexExercise\bin\Debug\net7.0\SpongebobRegexExercise.runtimeconfig.json
+c:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\SpongebobRegexExercise\bin\Debug\net7.0\SpongebobRegexExercise.dll
+c:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\SpongebobRegexExercise\bin\Debug\net7.0\SpongebobRegexExercise.pdb
+c:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\SpongebobRegexExercise\obj\Debug\net7.0\SpongebobRegexExercise.csproj.AssemblyReference.cache
+c:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\SpongebobRegexExercise\obj\Debug\net7.0\SpongebobRegexExercise.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\SpongebobRegexExercise\obj\Debug\net7.0\SpongebobRegexExercise.AssemblyInfoInputs.cache
+c:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\SpongebobRegexExercise\obj\Debug\net7.0\SpongebobRegexExercise.AssemblyInfo.cs
+c:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\SpongebobRegexExercise\obj\Debug\net7.0\SpongebobRegexExercise.csproj.CoreCompileInputs.cache
+c:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\SpongebobRegexExercise\obj\Debug\net7.0\SpongebobRegexExercise.dll
+c:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\SpongebobRegexExercise\obj\Debug\net7.0\refint\SpongebobRegexExercise.dll
+c:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\SpongebobRegexExercise\obj\Debug\net7.0\SpongebobRegexExercise.pdb
+c:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\SpongebobRegexExercise\obj\Debug\net7.0\SpongebobRegexExercise.genruntimeconfig.cache
+c:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\SpongebobRegexExercise\obj\Debug\net7.0\ref\SpongebobRegexExercise.dll
