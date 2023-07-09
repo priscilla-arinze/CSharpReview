@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\C# PROJECTS\\Classes-OOP_MAIN\\Classes-OOP\\Classes-OOP.csproj": {}
+    "c:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\C# PROJECTS\\Classes-OOP_MAIN\\Classes-OOP\\Classes-OOP.csproj": {}
   },
   "projects": {
     "C:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\C# PROJECTS\\Classes-OOP_MAIN\\BankAccountCoreLib\\BankAccountCoreLib.csproj": {
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\C# PROJECTS\\Classes-OOP_MAIN\\Classes-OOP\\Classes-OOP.csproj": {
+    "c:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\C# PROJECTS\\Classes-OOP_MAIN\\Classes-OOP\\Classes-OOP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\C# PROJECTS\\Classes-OOP_MAIN\\Classes-OOP\\Classes-OOP.csproj",
+        "projectUniqueName": "c:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\C# PROJECTS\\Classes-OOP_MAIN\\Classes-OOP\\Classes-OOP.csproj",
         "projectName": "Classes-OOP",
-        "projectPath": "C:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\C# PROJECTS\\Classes-OOP_MAIN\\Classes-OOP\\Classes-OOP.csproj",
+        "projectPath": "c:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\C# PROJECTS\\Classes-OOP_MAIN\\Classes-OOP\\Classes-OOP.csproj",
         "packagesPath": "C:\\Users\\prisc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\C# PROJECTS\\Classes-OOP_MAIN\\Classes-OOP\\obj\\",
+        "outputPath": "c:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\C# PROJECTS\\Classes-OOP_MAIN\\Classes-OOP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

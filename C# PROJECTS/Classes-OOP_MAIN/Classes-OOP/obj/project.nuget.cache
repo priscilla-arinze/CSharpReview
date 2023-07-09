@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sNSa4qh15Mz2o8cPmeCeJNAJNQR/w65uXaIGdpR/YYFOWcbnmPRMe3XZnn7Svd3/MNk74rluS5GlI3g/t8Cujg==",
+  "dgSpecHash": "rNKLpNnrVz8G+f7Kf6lvlfpdQL/Kf+7djmXHj5orHWhoY5VewtFIgxVvKhL5fIAAoBYfa441q3UF47dcq6DISA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\C# PROJECTS\\Classes-OOP_MAIN\\Classes-OOP\\Classes-OOP.csproj",
+  "projectFilePath": "c:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\C# PROJECTS\\Classes-OOP_MAIN\\Classes-OOP\\Classes-OOP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\prisc\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512"
   ],
