@@ -3,6 +3,7 @@ C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\C# PROJECTS\Classes-OOP_MAIN
 C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\C# PROJECTS\Classes-OOP_MAIN\Classes-OOP\bin\Debug\net7.0\Classes-OOP.runtimeconfig.json
 C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\C# PROJECTS\Classes-OOP_MAIN\Classes-OOP\bin\Debug\net7.0\Classes-OOP.dll
 C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\C# PROJECTS\Classes-OOP_MAIN\Classes-OOP\bin\Debug\net7.0\Classes-OOP.pdb
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\C# PROJECTS\Classes-OOP_MAIN\Classes-OOP\bin\Debug\net7.0\Humanizer.dll
 C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\C# PROJECTS\Classes-OOP_MAIN\Classes-OOP\bin\Debug\net7.0\BankAccountCoreLib.dll
 C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\C# PROJECTS\Classes-OOP_MAIN\Classes-OOP\bin\Debug\net7.0\BankAccountCoreLib.pdb
 C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\C# PROJECTS\Classes-OOP_MAIN\Classes-OOP\obj\Debug\net7.0\Classes-OOP.csproj.AssemblyReference.cache

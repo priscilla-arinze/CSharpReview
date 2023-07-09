@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "IxbdsVmUUzD7kZOYPrZsjfv+riVRBKgBoZwZshWdhMytlbfnMa8Jl7muJiztfmQLpIP9RcJTP6hnphLMZN+y/A==",
+  "dgSpecHash": "sNSa4qh15Mz2o8cPmeCeJNAJNQR/w65uXaIGdpR/YYFOWcbnmPRMe3XZnn7Svd3/MNk74rluS5GlI3g/t8Cujg==",
   "success": true,
   "projectFilePath": "C:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\C# PROJECTS\\Classes-OOP_MAIN\\Classes-OOP\\Classes-OOP.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\prisc\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512"
+  ],
   "logs": []
 }

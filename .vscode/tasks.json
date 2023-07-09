@@ -9,7 +9,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/C# PROJECTS/Classes-OOP/Classes-OOP.sln",
+                "${workspaceFolder}/C# PROJECTS/Classes-OOP_MAIN/Classes-OOP_MAIN.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -21,7 +21,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/C# PROJECTS/Classes-OOP/Classes-OOP.sln",
+                "${workspaceFolder}/C# PROJECTS/Classes-OOP_MAIN/Classes-OOP_MAIN.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -35,7 +35,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/C# PROJECTS/Classes-OOP/Classes-OOP.sln"
+                "${workspaceFolder}/C# PROJECTS/Classes-OOP_MAIN/Classes-OOP_MAIN.sln"
             ],
             "problemMatcher": "$msCompile"
         },

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Humanizer;
 
 namespace BankAccountCoreLib
 {
@@ -104,13 +105,24 @@ namespace BankAccountCoreLib
         public string GetTransactionStatement() {
             var report = new StringBuilder(); // in System.Text 
 
+            // ************* GRID TABLE FORMAT *************
             //HEADER
-            report.AppendLine("Date\t\tAmount\tDescription"); // '\t' is tabbed whitespace
+            //OLD: report.AppendLine("Date\t\tAmount\tDescription"); // '\t' is tabbed whitespace
+
+            // String.Format spacing {#,#}: 1st number is index, 2nd number is from left (+) or from right (-) alignment
+            // Documentation: https://learn.microsoft.com/en-us/dotnet/api/system.string.format?view=net-7.0&redirectedfrom=MSDN#control-spacing
+            report.AppendLine(String.Format("{0,-10} | {1,-40} | {2,-10} | {3,-20}", "Date", "Description", "Amount", "Amount (Written)"));
+            report.AppendLine("--------------------------------------------------------------------------------------------------------");
 
             foreach (var transaction in _allTransactions) {
                 //ROWS
+                //OLD: report.AppendLine($"{transaction.Date.ToShortDateString()}\t${transaction.Amount}\t{transaction.Description}");
+                
                 // DateTime.ToShortDateString() excludes the time and only includes the date
-                report.AppendLine($"{transaction.Date.ToShortDateString()}\t${transaction.Amount}\t{transaction.Description}");
+                // transaction.AmountWritten uses the Humanizer NuGet package in order to convert the numerical amount to written word format
+                report.AppendLine(
+                    String.Format("{0,-10} | {1,-40} | {2,-10} | {3,-20}", transaction.Date.ToShortDateString(), transaction.Description, transaction.Amount.ToString("0.00"), transaction.AmountWritten)
+                );
             }
 
             return report.ToString();
