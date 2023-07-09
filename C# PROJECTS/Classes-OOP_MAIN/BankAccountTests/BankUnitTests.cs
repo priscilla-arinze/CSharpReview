@@ -11,11 +11,9 @@ public class BankUnitTests
     {
         BankAccount testaccount = new BankAccount("TestAccount", 100);
 
-        decimal initialBalance = testaccount.Balance;
-
         testaccount.MakeDeposit(10, DateTime.Now, "very successful bank robbery");
 
-        Assert.Equal(initialBalance+10, 110);
+        Assert.Equal(testaccount.Balance, 110);
     }
     
     [Fact]
@@ -23,11 +21,9 @@ public class BankUnitTests
     {
         BankAccount testaccount = new BankAccount("TestAccount", 100);
 
-        decimal initialBalance = testaccount.Balance;
-
         testaccount.MakeWithdrawal(95, DateTime.Now, "gambling");
 
-        Assert.Equal(initialBalance-95, 5);
+        Assert.Equal(testaccount.Balance, 5);
     }
 
     [Fact]
