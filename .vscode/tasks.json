@@ -9,7 +9,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/EXERCISES/SpongebobRegexExercise/SpongebobRegexExercise.sln",
+                "${workspaceFolder}/C# PROJECTS/Classes-OOP/Classes-OOP.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -21,7 +21,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/EXERCISES/SpongebobRegexExercise/SpongebobRegexExercise.sln",
+                "${workspaceFolder}/C# PROJECTS/Classes-OOP/Classes-OOP.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -35,7 +35,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/EXERCISES/SpongebobRegexExercise/SpongebobRegexExercise.sln"
+                "${workspaceFolder}/C# PROJECTS/Classes-OOP/Classes-OOP.sln"
             ],
             "problemMatcher": "$msCompile"
         },
