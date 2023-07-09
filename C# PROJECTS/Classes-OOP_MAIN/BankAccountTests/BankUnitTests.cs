@@ -1,3 +1,4 @@
+
 using System;
 using System.Text.RegularExpressions;
 using BankAccountCoreLib;
@@ -13,7 +14,7 @@ public class BankUnitTests
 
         testaccount.MakeDeposit(10, DateTime.Now, "very successful bank robbery");
 
-        Assert.Equal(testaccount.Balance, 110);
+        Assert.Equal(110, testaccount.Balance);
     }
     
     [Fact]
@@ -23,7 +24,7 @@ public class BankUnitTests
 
         testaccount.MakeWithdrawal(95, DateTime.Now, "gambling");
 
-        Assert.Equal(testaccount.Balance, 5);
+        Assert.Equal(5, testaccount.Balance);
     }
 
     [Fact]
@@ -40,7 +41,7 @@ public class BankUnitTests
 
         Regex pattern = new Regex(@$"{DateTime.Now.ToShortDateString()}");
         MatchCollection matches = pattern.Matches(transactionstmt);
-        Assert.Equal(matches.Count, 6);
+        Assert.Equal(6, matches.Count);
 
     }
 
