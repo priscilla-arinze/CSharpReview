@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w2rpLF/XBAvl8O7wdxzYyisCDOSdgp2+oNx99gfDN3pNLAkl6KJcXowiXxeu8MEeRvQo3bTHjP8s8luQDIcF2Q==",
+  "dgSpecHash": "x7xmDtNi1rm13DEzcMhvUnhd8ON4zIa0ZOx5Pd+VVUv/5mpUPmii4fIqSPcfjId1l20aUUdGOCXnvpNx5GqTwA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\C# PROJECTS\\Classes-OOP_MAIN\\BankAccountCoreLib\\BankAccountCoreLib.csproj",
+  "projectFilePath": "C:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\C# PROJECTS\\Classes-OOP_MAIN\\BankAccountCoreLib\\BankAccountCoreLib.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\prisc\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512"
   ],

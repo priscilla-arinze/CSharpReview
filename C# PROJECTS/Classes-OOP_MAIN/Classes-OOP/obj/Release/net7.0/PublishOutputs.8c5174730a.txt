@@ -3,5 +3,6 @@ C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\C# PROJECTS\Classes-OOP_MAIN
 C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\C# PROJECTS\Classes-OOP_MAIN\Classes-OOP\bin\Release\net7.0\publish\Classes-OOP.deps.json
 C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\C# PROJECTS\Classes-OOP_MAIN\Classes-OOP\bin\Release\net7.0\publish\Classes-OOP.runtimeconfig.json
 C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\C# PROJECTS\Classes-OOP_MAIN\Classes-OOP\bin\Release\net7.0\publish\Classes-OOP.pdb
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\C# PROJECTS\Classes-OOP_MAIN\Classes-OOP\bin\Release\net7.0\publish\Humanizer.dll
 C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\C# PROJECTS\Classes-OOP_MAIN\Classes-OOP\bin\Release\net7.0\publish\BankAccountCoreLib.dll
 C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\C# PROJECTS\Classes-OOP_MAIN\Classes-OOP\bin\Release\net7.0\publish\BankAccountCoreLib.pdb

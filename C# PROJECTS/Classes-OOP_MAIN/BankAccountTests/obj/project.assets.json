@@ -5573,11 +5573,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\C# PROJECTS\\Classes-OOP_MAIN\\BankAccountTests\\BankAccountTests.csproj",
+      "projectUniqueName": "C:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\C# PROJECTS\\Classes-OOP_MAIN\\BankAccountTests\\BankAccountTests.csproj",
       "projectName": "BankAccountTests",
-      "projectPath": "c:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\C# PROJECTS\\Classes-OOP_MAIN\\BankAccountTests\\BankAccountTests.csproj",
+      "projectPath": "C:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\C# PROJECTS\\Classes-OOP_MAIN\\BankAccountTests\\BankAccountTests.csproj",
       "packagesPath": "C:\\Users\\prisc\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\C# PROJECTS\\Classes-OOP_MAIN\\BankAccountTests\\obj\\",
+      "outputPath": "C:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\C# PROJECTS\\Classes-OOP_MAIN\\BankAccountTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5598,8 +5598,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\C# PROJECTS\\Classes-OOP_MAIN\\BankAccountCoreLib\\BankAccountCoreLib.csproj": {
-              "projectPath": "c:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\C# PROJECTS\\Classes-OOP_MAIN\\BankAccountCoreLib\\BankAccountCoreLib.csproj"
+            "C:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\C# PROJECTS\\Classes-OOP_MAIN\\BankAccountCoreLib\\BankAccountCoreLib.csproj": {
+              "projectPath": "C:\\Users\\prisc\\Documents\\aa_CODE\\aa_C#\\CSharpReview\\C# PROJECTS\\Classes-OOP_MAIN\\BankAccountCoreLib\\BankAccountCoreLib.csproj"
             }
           }
         }
