@@ -1,0 +1,10 @@
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\RandomPracticeProjects\PageViewsFrequency_NETFramework4.8\obj\Debug\net48\PageViewsFrequency_NETFramework4.8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\RandomPracticeProjects\PageViewsFrequency_NETFramework4.8\obj\Debug\net48\PageViewsFrequency_NETFramework4.8.AssemblyInfoInputs.cache
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\RandomPracticeProjects\PageViewsFrequency_NETFramework4.8\obj\Debug\net48\PageViewsFrequency_NETFramework4.8.AssemblyInfo.cs
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\RandomPracticeProjects\PageViewsFrequency_NETFramework4.8\obj\Debug\net48\PageViewsFrequency_NETFramework4.8.csproj.CoreCompileInputs.cache
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\RandomPracticeProjects\PageViewsFrequency_NETFramework4.8\obj\Debug\net48\PageViewsFrequency_NETFramework4.8.csproj.AssemblyReference.cache
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\RandomPracticeProjects\PageViewsFrequency_NETFramework4.8\bin\Debug\net48\PageViewsFrequency_NETFramework4.8.exe.config
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\RandomPracticeProjects\PageViewsFrequency_NETFramework4.8\bin\Debug\net48\PageViewsFrequency_NETFramework4.8.exe
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\RandomPracticeProjects\PageViewsFrequency_NETFramework4.8\bin\Debug\net48\PageViewsFrequency_NETFramework4.8.pdb
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\RandomPracticeProjects\PageViewsFrequency_NETFramework4.8\obj\Debug\net48\PageViewsFrequency_NETFramework4.8.exe
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\RandomPracticeProjects\PageViewsFrequency_NETFramework4.8\obj\Debug\net48\PageViewsFrequency_NETFramework4.8.pdb

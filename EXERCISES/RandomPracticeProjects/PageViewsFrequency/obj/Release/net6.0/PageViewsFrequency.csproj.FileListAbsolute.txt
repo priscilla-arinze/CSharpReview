@@ -1,0 +1,15 @@
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\RandomPracticeProjects\PageViewsFrequency\bin\Release\net6.0\PageViewsFrequency.exe
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\RandomPracticeProjects\PageViewsFrequency\bin\Release\net6.0\PageViewsFrequency.deps.json
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\RandomPracticeProjects\PageViewsFrequency\bin\Release\net6.0\PageViewsFrequency.runtimeconfig.json
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\RandomPracticeProjects\PageViewsFrequency\bin\Release\net6.0\PageViewsFrequency.dll
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\RandomPracticeProjects\PageViewsFrequency\bin\Release\net6.0\PageViewsFrequency.pdb
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\RandomPracticeProjects\PageViewsFrequency\obj\Release\net6.0\PageViewsFrequency.csproj.AssemblyReference.cache
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\RandomPracticeProjects\PageViewsFrequency\obj\Release\net6.0\PageViewsFrequency.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\RandomPracticeProjects\PageViewsFrequency\obj\Release\net6.0\PageViewsFrequency.AssemblyInfoInputs.cache
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\RandomPracticeProjects\PageViewsFrequency\obj\Release\net6.0\PageViewsFrequency.AssemblyInfo.cs
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\RandomPracticeProjects\PageViewsFrequency\obj\Release\net6.0\PageViewsFrequency.csproj.CoreCompileInputs.cache
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\RandomPracticeProjects\PageViewsFrequency\obj\Release\net6.0\PageViewsFrequency.dll
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\RandomPracticeProjects\PageViewsFrequency\obj\Release\net6.0\refint\PageViewsFrequency.dll
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\RandomPracticeProjects\PageViewsFrequency\obj\Release\net6.0\PageViewsFrequency.pdb
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\RandomPracticeProjects\PageViewsFrequency\obj\Release\net6.0\PageViewsFrequency.genruntimeconfig.cache
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\RandomPracticeProjects\PageViewsFrequency\obj\Release\net6.0\ref\PageViewsFrequency.dll

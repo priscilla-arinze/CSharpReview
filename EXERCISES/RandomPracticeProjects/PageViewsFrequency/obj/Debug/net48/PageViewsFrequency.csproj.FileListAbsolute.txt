@@ -1,0 +1,6 @@
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\RandomPracticeProjects\PageViewsFrequency\obj\Debug\net48\PageViewsFrequency.csproj.AssemblyReference.cache
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\RandomPracticeProjects\PageViewsFrequency\obj\Debug\net48\PageViewsFrequency.csproj.SuggestedBindingRedirects.cache
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\RandomPracticeProjects\PageViewsFrequency\obj\Debug\net48\PageViewsFrequency.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\RandomPracticeProjects\PageViewsFrequency\obj\Debug\net48\PageViewsFrequency.AssemblyInfoInputs.cache
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\RandomPracticeProjects\PageViewsFrequency\obj\Debug\net48\PageViewsFrequency.AssemblyInfo.cs
+C:\Users\prisc\Documents\aa_CODE\aa_C#\CSharpReview\EXERCISES\RandomPracticeProjects\PageViewsFrequency\obj\Debug\net48\PageViewsFrequency.csproj.CoreCompileInputs.cache
